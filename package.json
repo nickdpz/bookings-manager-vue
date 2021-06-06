@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "vue-cli-service test:unit",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -28,7 +29,9 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
     "lint-staged": "^9.5.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^0.7.4"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
